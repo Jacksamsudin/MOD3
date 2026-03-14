@@ -5,6 +5,41 @@ namespace Modul3_103022400074
         public Form1()
         {
             InitializeComponent();
+
+            comboBox1.Items.Add("Celcuis");
+            comboBox1.Items.Add("Fahrenheit");
+            comboBox1.Items.Add("Kelvin");
+            comboBox1.Items.Add("Reamur");
+
+            comboBox2.Items.Add("Celcuis");
+            comboBox2.Items.Add("Fahrenheit");
+            comboBox2.Items.Add("Kelvin");
+            comboBox2.Items.Add("Reamur");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
